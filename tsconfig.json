@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "jsx": "react-jsx",
+    "esModuleInterop": true,
+    "sourceMap": true,
+    "baseUrl": "./",
+    "strict": true,
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+    "paths": {
+      "@/*": ["src/*"],
+      "@@/*": ["src/.umi/*"],
+      "tools": ["src/utils/tools"],
+      "config/*": ["config/*"],
+      "pages/*": ["src/pages/*"],
+      "services/*": ["src/services/*"],
+      "components/*": ["src/components/*"]
+    }
+  },
+  "include": ["src/**/*", "config/**/*", "typings.d.ts"],
+  "exclude": ["node_modules", "build", "dist", "scripts"]
+}

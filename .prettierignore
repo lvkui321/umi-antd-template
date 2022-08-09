@@ -1,0 +1,12 @@
+node_modules
+.umi
+.umi-production
+/.vscode
+eslintcache
+.DS_Store
+/src/.umi
+/src/.umi-production
+/src/.umi-test
+/mock
+/build
+/dist
