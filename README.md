@@ -4,10 +4,12 @@
 
 # 清除原有git信息并关联新的远程仓库
 ```base
-rm -rf git
+rm -rf .git
 git init
 git remote add origin <URL>
+//主分支改名main | master二选一
+git branch -m <main | master>
 git add .
 git commit -m "feat: init"
-git push origin master
+git push -u origin <main | master>
 ```
