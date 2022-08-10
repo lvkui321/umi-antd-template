@@ -18,7 +18,7 @@
       "config/*": ["config/*"],
       "pages/*": ["src/pages/*"],
       "services/*": ["src/services/*"],
-      "components/*": ["src/components/*"]
+      "components": ["src/components"]
     }
   },
   "include": ["src/**/*", "config/**/*", "typings.d.ts"],

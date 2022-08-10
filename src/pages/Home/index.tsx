@@ -1,6 +1,5 @@
 import { PageContainer } from '@ant-design/pro-components';
 import { useModel } from '@umijs/max';
-import { Guide } from 'components';
 import { trim } from 'tools';
 import styles from './index.less';
 
@@ -9,7 +8,7 @@ const HomePage: React.FC = () => {
   return (
     <PageContainer ghost>
       <div className={styles.container}>
-        <Guide name={trim(name)} />
+        欢迎使用
       </div>
     </PageContainer>
   );

@@ -1,5 +1,5 @@
 // 运行时配置
-import { RequestConfig } from '@umijs/max';
+import { RequestConfig, RunTimeLayoutConfig } from '@umijs/max';
 import { message, notification } from 'antd';
 
 // 全局初始化数据配置，用于 Layout 用户信息和权限初始化
@@ -8,7 +8,7 @@ export async function getInitialState(): Promise<{ name: string }> {
   return { name: '@umijs/max' };
 }
 
-export const layout = () => {
+export const layout: RunTimeLayoutConfig = () => {
   return {
     logo: 'https://img.alicdn.com/tfs/TB1YHEpwUT1gK0jSZFhXXaAtVXa-28-27.svg',
     menu: {
@@ -17,7 +17,7 @@ export const layout = () => {
     layout: 'mix',
     headerTheme: 'dark',
     navTheme: 'light',
-    headeerWidth: 60,
+    headerWidth: 60,
     siderWidth: 150,
   };
 };
