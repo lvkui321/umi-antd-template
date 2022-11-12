@@ -1,4 +1,7 @@
 {
+  "name": "umi-antd-template",
+  "version": "1.0.0",
+  "description": "This is a mid - and back-end template project based on umi and antd",
   "private": true,
   "author": "lvkui <1359570412@qq.com>",
   "scripts": {
